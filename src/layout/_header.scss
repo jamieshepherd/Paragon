@@ -1,0 +1,69 @@
+#header {
+	background: #000 url(%%header%%) no-repeat;
+	padding-top: $header-height;
+	border: none;
+	#header-img.default-header {
+		display: none;
+	}
+
+}
+#sr-header-area {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #1f1f1f; // Old browsers
+	background: rgba(0,0,0,0.8);
+	color: #cccccc;
+	font-size: 9px;
+	border: none;
+	padding: 3px 0;
+	#srLeftContainer {
+		padding-left: 10px;
+	}
+	.dropdown.srdrop {
+		.selected {
+			color: white;
+			margin-right: 0;
+			padding-right: 24px;
+			padding-left: 10px;
+		}
+	}
+}
+
+#header-bottom-right {
+	position: absolute;
+	padding: 2px 0;
+	top: 0 !important;
+	right: 10px;
+	width: auto;
+	//max-width: $sidebar-width;
+	font-size: 11px;
+	background: none;
+	color: white;
+	a {
+		color: white;
+	}
+	#userbarToggle {
+		line-height: 22px;
+	}
+}
+
+.sr-bar {
+	a {
+		color: #ccc;
+	}
+}
+
+// RES
+.res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a, .res #sr-header-area a.RESShortcutsCurrentSub {
+	color: white !important;
+}
+.res #RESShortcutsEditContainer {
+	display: none;
+	margin-right: 452px;
+}
+.res #userbarToggle {
+	background: none;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}

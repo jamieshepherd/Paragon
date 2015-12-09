@@ -1,0 +1,32 @@
+#search {
+	position: absolute;
+	top: 318px;
+	z-index: 1337;
+	input[type="text"] {
+		background: none;
+		border: none;
+		text-transform: capitalize;
+		outline: none;
+		&::-webkit-input-placeholder {
+			color: #999;
+		}
+		&:-moz-placeholder {
+			color: #999;
+		}
+		&::-moz-placeholder {
+			color: #999;
+		}
+		&:-ms-input-placeholder {
+			color: #999;
+		}
+	}
+	#searchexpando {
+		background: white;
+		margin-top: 13px;
+		border-radius: 0;
+		box-shadow: $shadow;
+		border: 1px solid $dark-grey;
+		transition-duration: 0;
+	}
+
+}

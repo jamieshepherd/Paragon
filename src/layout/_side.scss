@@ -1,0 +1,42 @@
+.side {
+	margin-top: 20px;
+	background: none;
+	.spacer {
+		margin: 0;
+	}
+	.morelink {
+		background: white;
+		box-shadow: $shadow;
+		border: none;
+		border-left: 4px solid $gold;
+		text-align: center;
+		font-size: 14px;
+		height: auto;
+		line-height: 14px;
+		&:hover {
+			a {
+				color: $gold;
+			}
+		}
+		a {
+			display: inline-block;
+			padding: 15px 10px;
+			color: $foreground;
+			text-transform: uppercase;
+			text-decoration: none;
+			box-sizing: border-box;
+		}
+		.nub {
+			display: none;
+		}
+	}
+	.submit-text {
+		display: none;
+	}
+	.titlebox {
+		margin-top: 20px;
+		background: white;
+		padding: 20px;
+		box-shadow: $shadow;
+	}
+}
