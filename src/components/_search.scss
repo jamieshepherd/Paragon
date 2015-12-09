@@ -2,12 +2,22 @@
 	position: absolute;
 	top: 318px;
 	z-index: 1337;
+	&:before {
+		content: "";
+		width: 1px;
+		height: 30px;
+		position: absolute;
+		background: white;
+		display: inline-block;
+		left: 0;
+		top: 0;
+	}
 	input[type="text"] {
 		background: none;
 		border: none;
-		text-transform: capitalize;
 		outline: none;
 		color: white;
+		padding-left: 20px;
 	}
 	#searchexpando {
 		background: white;
