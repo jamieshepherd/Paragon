@@ -12,6 +12,11 @@
 		margin-bottom: 20px;
 		padding: 20px;
 		font-size: 14px;
+		.date {
+			time {
+				font-weight: bold;
+			}
+		}
 		.score {
 			margin-top: 5px;
 		}
