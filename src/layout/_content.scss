@@ -9,9 +9,60 @@
 		border-bottom: 1px solid #eeeeee;
 		&.thing .title {
 			color: $blue;
+			font-size: 18px;
 			&:visited {
 				color: $purple;
 			}
 		}
+		&.last-clicked { // Last clicked link
+			border: none;
+			border-bottom: 1px solid #eeeeee;
+		}
+		.thumbnail {
+			margin: 0 20px 0;
+			max-height: 56px;
+		}
+		.title {
+			margin-bottom: 5px;
+		}
+		.entry {
+			margin: 0;
+			padding: 0;
+		}
+		.tagline {
+			font-size: 12px;
+			color: #999999;
+		}
+		.flat-list.buttons {
+			clear: both;
+			font-size: 12px;
+			li a {
+				font-weight: normal;
+			}
+			li.first a {
+				color: $blue;
+				font-weight: bold;
+			}
+		}
+	}
+	.spacer {
+		margin: 0;
+	}
+	.expando-button, .expando-button.image, .expando-button.video, .expando-button.video-muted {
+		width: 16px !important;
+		height: 16px !important;
+		margin: 0 6px 0 0 !important;
+		border-radius: 2px;
+		position: relative;
+		cursor: pointer;
+		background: #ccc;
+	}
+}
+
+// RES
+
+.link {
+	.RES-keyNav-activeElement {
+		background: none !important;
 	}
 }
