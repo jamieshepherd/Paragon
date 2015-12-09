@@ -4,6 +4,10 @@
 	.spacer {
 		margin: 0;
 	}
+	.title h1 {
+		text-transform: capitalize;
+		color: $foreground;
+	}
 	.morelink {
 		background: white;
 		box-shadow: $shadow;
@@ -38,5 +42,37 @@
 		background: white;
 		padding: 20px;
 		box-shadow: $shadow;
+		.bottom {
+			display: none;
+		}
+	}
+	.usertext {
+		border-top: 20px solid #f6f6f6;
+	}
+
+	#moderation_tools {
+		margin-top: 20px;
+		ul.content {
+			margin: 10px 0 20px;
+			border: none;
+			box-shadow: $shadow;
+			padding: 20px;
+			font-size: 14px;
+		}
+	}
+	.sidecontentbox .content {
+		margin: 10px 0 20px;
+		border: none;
+		box-shadow: $shadow;
+		padding: 20px;
+		font-size: 14px;
+	}
+
+	.sidebox.create {
+		display: none;
+	}
+
+	.account-activity-box {
+		display: none;
 	}
 }
