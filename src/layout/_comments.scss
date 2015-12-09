@@ -1,0 +1,21 @@
+.gold-accent.comment-visits-box {
+	background: none;
+	border: 1px solid #eee;
+	border-radius: 0;
+	color: #333;
+	margin: 0 0 20px 10px;
+	padding: 7px 10px;
+	#comment-visits {
+		padding: 2px 5px;
+		margin-left: 10px;
+	}
+}
+
+.thing.comment {
+	.flat-list.buttons {
+		font-size: 12px;
+		li a {
+			font-weight: normal;
+		}
+	}
+}

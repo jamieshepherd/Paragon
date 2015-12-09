@@ -4,6 +4,11 @@
 	overflow: auto;
 	background: white;
 	box-shadow: $shadow;
+	.thing.stickied  {
+		a.title, a.title:visited, .flat-list.buttons li.first a {
+			color: $green;
+		}
+	}
 	.link {
 		padding: 20px;
 		border-bottom: 1px solid #eeeeee;

@@ -4,6 +4,32 @@
 	.spacer {
 		margin: 0;
 	}
+	.linkinfo {
+		background: white;
+		border: none;
+		border-radius: 0;
+		box-shadow: $shadow;
+		margin-bottom: 20px;
+		padding: 20px;
+		font-size: 14px;
+		.score {
+			margin-top: 5px;
+		}
+		.totalvotes {
+			color: #999;
+		}
+		.shortlink {
+			border-top: 1px solid #eeeeee;
+			padding-top: 15px;
+			margin-top: 15px;
+			input {
+				border: 1px dotted #cccccc;
+				font-size: 12px;
+				padding: 5px;
+				width: auto;
+			}
+		}
+	}
 	.title h1 {
 		text-transform: capitalize;
 		color: $foreground;
