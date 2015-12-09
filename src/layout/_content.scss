@@ -1,0 +1,17 @@
+.content {
+	margin: 20px;
+	width: initial;
+	overflow: auto;
+	background: white;
+	box-shadow: $shadow;
+	.link {
+		padding: 20px;
+		border-bottom: 1px solid #eeeeee;
+		&.thing .title {
+			color: $blue;
+			&:visited {
+				color: $purple;
+			}
+		}
+	}
+}
