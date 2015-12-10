@@ -19,6 +19,8 @@
 
 	.pagename {
 		//display: none;
+		font-size: 0;
+		color: $dark-grey;
 		a {
 			display: inline-block;
 			text-indent: 100%;

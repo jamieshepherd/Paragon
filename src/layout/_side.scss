@@ -52,6 +52,92 @@
 	}
 	.titlebox {
 		font-size: 14px;
+		.redditname {
+			margin-bottom: 15px;
+		}
+		.fancy-toggle-button  {
+			display: block;
+			text-align: center;
+			text-transform: capitalize;
+			font-weight: bold;
+			margin: 20px 0 10px;
+			.remove {
+				background: #eee;
+				color: #999;
+				&:hover {
+					background: #f6f6f6;
+				}
+			}
+			.add {
+				background: $gold;
+				color: white;
+				&:hover {
+					background: lighten($gold, 10%);
+				}
+				&:after {
+					content: ' to /r/Paragon';
+					text-transform: none;
+				}
+			}
+			.remove, .add {
+				box-sizing: border-box;
+				font-size: 14px;
+				width: 100%;
+				border: none;
+				border-radius: 0;
+				padding: 10px;
+				transition: background-color 0.2s;
+				&.active {
+					display: block;
+				}
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.RESshortcut, .REStoggle {
+			display: inline-block;
+			width: 49%;
+			background: white !important;
+			border: 1px solid #ddd;
+			border-radius: 0;
+			box-sizing: border-box;
+			color: #999999;
+			padding: 10px 5px;
+			margin: 0;
+			font-size: 12px;
+			font-weight: normal;
+			text-transform: capitalize;
+			transition: border 0.2s;
+			&:hover {
+				border-color: #999;
+			}
+		}
+		.RESshortcut {
+			margin: 0 2% 0 0;
+		}
+		.REStoggle {
+		}
+	}
+	.subscribers {
+		margin-top: 20px;
+		display: block;
+		font-size: 16px;
+		font-weight: bold;
+		color: #555;
+	}
+	.users-online {
+		color: #cccccc;
+		font-size: 14px;
+		&:before {
+			display: none;
+		}
+	}
+	.flairtoggle {
+		display: none;
+	}
+	.tagline {
+		display: none;
 	}
 	.leavemoderator, .leavecontributor-button {
 		display: none;
@@ -121,6 +207,7 @@
 		}
 	}
 	.sidecontentbox .content {
+		background: white;
 		margin: 10px 0 20px;
 		border: none;
 		box-shadow: $shadow;

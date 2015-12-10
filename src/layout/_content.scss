@@ -7,11 +7,18 @@
 		a.title, a.title:visited, .flat-list.buttons li.first a {
 			color: $green;
 		}
+		.entry .buttons li a {
+			color: $green;
+		}
 	}
 	.link {
 		padding: 20px;
 		border-bottom: 1px solid #eeeeee;
 		margin-bottom: 0;
+		.redditSingleClick {
+			color: #ccc;
+			font-weight: normal;
+		}
 		&.thing .title {
 			color: $blue;
 			font-size: 18px;
@@ -54,7 +61,7 @@
 	.spacer {
 		margin: 0;
 	}
-	.expando-button, .expando-button.image, .expando-button.video, .expando-button.video-muted {
+	.expando-button, .expando-button.image, .expando-button.video, .expando-button.video-muted, .expando-button.selftext.collapsed {
 		width: 16px !important;
 		height: 16px !important;
 		margin: 0 6px 0 0 !important;
