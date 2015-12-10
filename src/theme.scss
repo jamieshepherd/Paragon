@@ -6,7 +6,8 @@
 @import
 'components/buttons',
 'components/search',
-'components/highlights';
+'components/highlights',
+'components/flairs';
 
 @import
 'layout/main',
@@ -16,4 +17,5 @@
 'layout/content',
 'layout/post',
 'layout/comments',
-'layout/footer';
+'layout/footer',
+'layout/markdown';

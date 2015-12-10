@@ -1,7 +1,6 @@
 .content {
 	margin: 20px;
-	width: initial;
-	overflow: auto;
+	margin-right: 340px;
 	background: white;
 	box-shadow: $shadow;
 	.thing.stickied  {
@@ -26,7 +25,7 @@
 		}
 		.thumbnail {
 			margin: 0 20px 0;
-			max-height: 56px;
+			max-height: 64px;
 		}
 		.title {
 			margin-bottom: 5px;
@@ -38,6 +37,7 @@
 		.tagline {
 			font-size: 12px;
 			color: #999999;
+			margin-bottom: 5px;
 		}
 		.flat-list.buttons {
 			clear: both;

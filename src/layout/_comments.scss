@@ -1,21 +1,95 @@
 .gold-accent.comment-visits-box {
 	background: none;
-	border: 1px solid #eee;
+	border: none;
 	border-radius: 0;
 	color: #333;
-	margin: 0 0 20px 10px;
-	padding: 7px 10px;
+	margin: 20px 0 10px;
+	padding: 0;
 	#comment-visits {
 		padding: 2px 5px;
 		margin-left: 10px;
 	}
 }
 
-.thing.comment {
-	.flat-list.buttons {
-		font-size: 12px;
-		li a {
-			font-weight: normal;
+.comments-page {
+	.content {
+		background: none;
+		box-shadow: none;
+		.link {
+			background: white;
+			box-shadow: $shadow;
 		}
 	}
+	.usertext.cloneable {
+		background: white;
+		padding: 20px;
+		margin: 0;
+		box-shadow: $shadow;
+	}
+}
+
+.commentarea {
+	.thing {
+		padding: 15px;
+		margin: 0;
+		margin: 10px 0px;
+		box-shadow: $shadow;
+		background: white;
+		.md {
+			margin: 8px 0;
+			font-family: Verdana, sans-serif;
+			font-size: 14px;
+			color: #444;
+		}
+		&.comment .child {
+			margin-top: 0;
+		}
+		.author {
+			color: #555;
+		}
+		.tagline {
+			font-size: 12px;
+		}
+		.flat-list.buttons {
+			font-size: 11px;
+			li a {
+				font-weight: normal;
+				color: #aaa;
+			}
+			li.reply-button a {
+				color: $blue;
+				font-weight: bold;
+			}
+		}
+	}
+	.child {
+		border-left: none;
+	}
+}
+
+
+.new-comment .usertext-body {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+// RES
+
+.comments-page {
+	.comment {
+		.RES-keyNav-activeElement, .RES-keyNav-activeElement .md {
+			background: none !important;
+		}
+	}
+}
+.res-commentBoxes .comment .comment {
+	background-color: #f5f8fa !important;
+}
+.res-commentBoxes.res-commentBoxes-rounded .comment {
+	border-radius: 0 !important;
+	border: none !important;
+	padding: 15px !important;
+	margin: 10px 0 !important;
 }

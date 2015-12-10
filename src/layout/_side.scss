@@ -13,8 +13,20 @@
 		padding: 20px;
 		font-size: 14px;
 		.date {
+			color: #999;
+			font-size: 12px;
+			span {
+				display: none;
+			}
 			time {
 				font-weight: bold;
+				&:before {
+					content: 'Submitted ';
+					font-family: Arial, sans-serif;
+					font-size: 12px;
+					font-weight: normal;
+					color: #999;
+				}
 			}
 		}
 		.score {
@@ -27,17 +39,33 @@
 			border-top: 1px solid #eeeeee;
 			padding-top: 15px;
 			margin-top: 15px;
+			font-size: 0;
+			color: white;
 			input {
 				border: 1px dotted #cccccc;
 				font-size: 12px;
 				padding: 5px;
-				width: auto;
+				width: 100%;
+				box-sizing: border-box;
 			}
 		}
+	}
+	.titlebox {
+		font-size: 14px;
+	}
+	.leavemoderator, .leavecontributor-button {
+		display: none;
+	}
+	.flairtoggle {
+		font-size: 12px;
 	}
 	.title h1 {
 		text-transform: capitalize;
 		color: $foreground;
+	}
+	.md h2 {
+		font-size: 18px;
+		font-weight: bold;
 	}
 	.morelink {
 		background: white;
@@ -78,7 +106,8 @@
 		}
 	}
 	.usertext {
-		border-top: 20px solid #f6f6f6;
+		border-top: 1px solid #cccccc;
+		margin-top: 20px;
 	}
 
 	#moderation_tools {
