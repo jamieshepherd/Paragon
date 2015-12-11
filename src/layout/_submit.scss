@@ -1,0 +1,81 @@
+.submit-page {
+	.content {
+		background: none;
+		box-shadow: none;
+		padding: 0;
+		margin: 30px;
+	}
+	h1 {
+		font-size: 20px;
+		text-transform: capitalize;
+	}
+	.submit.content {
+
+		margin: 0;
+	}
+	.side .titlebox {
+		margin-top: 0;
+	}
+	.formtabs-content {
+		border-top: none;
+	}
+	ul.tabmenu.formtab {
+		padding-left: 0;
+		font-size: 16px;
+		margin: 15px 0 10px;
+		li {
+			a {
+				border: none;
+				padding: 5px 10px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			&.selected a {
+				font-size: 100%;
+			}
+		}
+	}
+	.infobar {
+		background: #eee;
+		border: 1px solid #E2E2E2;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.roundfield {
+		background: white;
+		box-shadow: $shadow;
+		padding: 20px;
+		box-sizing: border-box;
+		width: 100%;
+		border-radius: 0;
+		.usertext-edit, .markdownEditor-wrapper {
+			width: 100%;
+		}
+		&.info-notice {
+			background: white;
+			box-shadow: $shadow;
+			border: none;
+			padding: 20px;
+			font-size: 12px;
+			max-width: 520px;
+			border-radius: 0;
+		}
+		.title {
+			text-transform: capitalize;
+		}
+		textarea, input {
+			width: 100%;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			&[type="checkbox"] {
+				width: auto;
+			}
+		}
+	}
+}
+
+// RES
+.RESDialogSmall.livePreview {
+	margin-top: 20px;
+}

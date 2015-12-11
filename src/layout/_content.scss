@@ -3,18 +3,32 @@
 	margin-right: 340px;
 	background: white;
 	box-shadow: $shadow;
+
 	.thing.stickied  {
+		border-left: 3px solid $green;
 		a.title, a.title:visited, .flat-list.buttons li.first a {
 			color: $green;
 		}
 		.entry .buttons li a {
 			color: $green;
 		}
+		.stickied-tagline {
+			color: #999;
+		}
 	}
 	.link {
 		padding: 20px;
 		border-bottom: 1px solid #eeeeee;
 		margin-bottom: 0;
+		.entry .tagline .userattrs {
+			visibility: hidden;
+			.moderator, .cakeday {
+				visibility: visible;
+			}
+		}
+		.usertext-body .md {
+			border: 1px solid #E2E2E2;
+		}
 		.redditSingleClick {
 			color: #ccc;
 			font-weight: normal;
@@ -60,15 +74,6 @@
 	}
 	.spacer {
 		margin: 0;
-	}
-	.expando-button, .expando-button.image, .expando-button.video, .expando-button.video-muted, .expando-button.selftext.collapsed {
-		width: 16px !important;
-		height: 16px !important;
-		margin: 0 6px 0 0 !important;
-		border-radius: 2px;
-		position: relative;
-		cursor: pointer;
-		background: #ccc;
 	}
 }
 

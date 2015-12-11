@@ -62,15 +62,27 @@
 			font-weight: bold;
 			margin: 20px 0 10px;
 			.remove {
-				background: #eee;
+				background: white;
+				border: 1px solid #ddd;
+				border-radius: 0;
+				font-weight: normal;
 				color: #999;
 				&:hover {
-					background: #f6f6f6;
+					border: 1px solid #999;
+				}
+				&:after {
+					font-size: 12px;
+					font-weight: bold;
+					content: ':(';
+					transform: rotate(90deg);
+					display: inline-block;
+					margin-left: 10px;
 				}
 			}
 			.add {
 				background: $gold;
 				color: white;
+				border-color: $gold;
 				&:hover {
 					background: lighten($gold, 10%);
 				}
@@ -83,7 +95,6 @@
 				box-sizing: border-box;
 				font-size: 14px;
 				width: 100%;
-				border: none;
 				border-radius: 0;
 				padding: 10px;
 				transition: background-color 0.2s;
@@ -164,13 +175,13 @@
 		line-height: 14px;
 		&:hover {
 			a {
-				color: $gold;
+				color: $foreground;
 			}
 		}
 		a {
 			display: inline-block;
 			padding: 15px 10px;
-			color: $foreground;
+			color: $gold;
 			text-transform: uppercase;
 			text-decoration: none;
 			box-sizing: border-box;
@@ -222,4 +233,18 @@
 	.account-activity-box {
 		display: none;
 	}
+
+	.gadget {
+		.midcol {
+			width: 20px;
+			margin: 0;
+		}
+		.entry {
+			padding: 5px 5px 0 10px;
+		}
+		.linkflairlabel {
+			margin-left: 5px;
+		}
+	}
+
 }

@@ -1,9 +1,16 @@
 .content {
-		.thing .tagline .author.moderator {
-			background-color: $green !important;
-			padding: 2px 4px;
-			border-radius: 0;
-			font-weight: bold;
-			color: white;
+	.thing .tagline .author.moderator {
+		background-color: $green !important;
+		color: white;
+		padding: 2px 4px;
+		border-radius: 0;
+		font-weight: bold;
+		&:hover {
+			background: lighten($green, 10%) !important;
 		}
+	}
+	.thing .tagline .author {
+		color: $foreground;
+		//font-weight: bold;
+	}
 }

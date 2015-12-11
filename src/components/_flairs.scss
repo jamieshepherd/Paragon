@@ -3,13 +3,31 @@
 		border-radius: 0px;
 		padding-left: 0px;
 		margin-right: inherit;
+		background-color: transparent ;
 		background-image: url(%%flair-epic%%);
 		background-repeat: no-repeat;
-		height: 20px;
 		width: 18px;
+		height: 20px;
 		margin-bottom: -5px;
-		margin-left: 2px;
+		margin-left: 4px;
 		text-indent: 100px;
 		white-space: nowrap;
 		overflow: hidden;
+}
+
+.linkflairlabel {
+	padding: 4px 4px 3px;
+	font-size: 9px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: white;
+	background: $gold;
+	border: none;
+	border-radius: 0;
+	position: relative;
+	top: 2px;
+	letter-spacing: 1px;
+	&:hover {
+		background: lighten($gold, 10%);
+	}
 }
