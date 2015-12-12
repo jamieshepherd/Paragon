@@ -25,18 +25,22 @@
         letter-spacing: 2px;
         color: #DDD;
         &:hover {
-            color: aliceblue
+            color: #DBBD68;
         }
-    .tabmenu.formtab .selected a {
-        background-color: #DBBD68;
-        letter-spacing: 2px;
-        text-transform: uppercase;
     }
 	ul.tabmenu.formtab {
 		padding-left: 0;
 		font-size: 16px;
 		margin: 15px 0 10px;
 		li {
+            &.selected a {
+                background-color: #DBBD68;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                &:hover {
+                    color: #826E36;
+                }
+            }
 			a {
 				border: none;
 				padding: 5px 10px;
