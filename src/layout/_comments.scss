@@ -53,6 +53,10 @@
 				font-size: 12px;
                 .userattrs {
                     visibility: hidden;
+                    font-size: 0;
+                    .submitter {
+                        display: none;
+                    }
                 }
                 .moderator {
                     visibility: visible;
