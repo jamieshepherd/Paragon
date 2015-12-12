@@ -107,6 +107,28 @@
             font-size: 14px;
         }
     }
+	.nav-buttons {
+		padding: 15px;
+		font-size: 12px;
+		text-transform: capitalize;	
+		a {
+			background-color: $gold;
+		    color: white;
+		    font-size: 12px;
+			font-weight: normal;
+		    text-transform: uppercase;
+		    border: none;
+		    padding: 9px 15px;
+		    transition: background-color 0.2s;
+		    outline: none;
+		    cursor: pointer;
+			border-radius: 0;
+		    &:hover {
+		        background-color: lighten($gold, 10%);
+				text-decoration: none;
+		    }
+		}
+	}
 }
 
 // RES

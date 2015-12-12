@@ -29,8 +29,8 @@
 			width: 253px;
 			height: 35px;
 			background: url(%%logo%%) no-repeat left center;
-			margin-bottom: -1px;
-			margin-left: 0;
+			margin-bottom: 0;
+			margin-left: -5px;
 			animation: flicker 10s normal infinite;
 		}
 	}
@@ -38,7 +38,7 @@
 	.tabmenu {
 		display: block !important;
 		margin-top: 0;
-		margin-left: 400px;
+		margin-left: 395px;
 		//border-left: 1px solid white;
 		padding-left: 20px;
 		height: 60px;

@@ -54,6 +54,9 @@
 		font-size: 14px;
 		.redditname {
 			margin-bottom: 15px;
+			&:before {
+				content: '/r/';
+			}
 		}
 		.fancy-toggle-button  {
 			display: block;
