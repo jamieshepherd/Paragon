@@ -110,7 +110,7 @@
 	.nav-buttons {
 		padding: 15px;
 		font-size: 12px;
-		text-transform: capitalize;	
+		text-transform: capitalize;
 		a {
 			background-color: $gold;
 		    color: white;
@@ -134,8 +134,19 @@
 // RES
 
 .link {
+	position: relative;
 	.RES-keyNav-activeElement {
 		background: none !important;
+		&:after {
+			content: '';
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			width: 10px;
+			height: 9px;
+			background: url(%%spritesheet%%);
+			background-position: -45px -5px; 
+		}
 	}
 }
 .content .RESBigEditorPop {

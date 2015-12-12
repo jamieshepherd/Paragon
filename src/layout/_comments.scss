@@ -110,19 +110,44 @@
 }
 
 
-.new-comment .usertext-body {
-	background: none;
-	border: none;
-	margin: 0;
-	padding: 0;
+.comments-page {
+	.new-comment {
+		position: relative;
+		.usertext-body {
+			background: none;
+			border: none;
+			margin: 0;
+			padding: 0;
+		}
+		.tagline:after {
+			display: inline-block;
+			content: 'New comment';
+			text-transform: uppercase;
+			font-size: 9px;
+			color: #C77171;
+			margin-left: 10px;
+		}
+	}
 }
+
 
 // RES
 
 .comments-page {
 	.comment {
+		position: relative;
 		.RES-keyNav-activeElement, .RES-keyNav-activeElement .md {
 			background: none !important;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 10px;
+				height: 9px;
+				background: url(%%spritesheet%%);
+				background-position: -45px -5px;
+			}
 		}
 	}
 	.commentarea {
