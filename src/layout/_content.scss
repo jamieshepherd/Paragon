@@ -44,6 +44,9 @@
 			border: none;
 			border-bottom: 1px solid #eeeeee;
 		}
+        .rank {
+            display: none;
+        }
 		.thumbnail {
 			margin: 0 20px 0;
 			max-height: 64px;
@@ -75,6 +78,25 @@
 	.spacer {
 		margin: 0;
 	}
+    #noresults {
+        padding: 20px;
+        margin-right: 0;
+        background: url(%%noresults%%) center center no-repeat;
+        text-indent: -9999px;
+        overflow: hidden;
+        font-size: 0;
+        width: 100%;
+        height: 312px;
+    }
+    .menuarea, .panestack-title {
+        font-size: 14px;
+        text-transform: capitalize;
+        padding: 10px;
+        border-bottom: 1px dotted #ccc;
+        .title {
+            font-size: 14px;
+        }
+    }
 }
 
 // RES
@@ -83,4 +105,13 @@
 	.RES-keyNav-activeElement {
 		background: none !important;
 	}
+}
+.content .RESBigEditorPop {
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;
+    width: 20px;
+    height: 16px;
+    border: none;
+    margin-left: 5px;
 }

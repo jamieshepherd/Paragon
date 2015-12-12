@@ -25,6 +25,10 @@
 		padding: 20px;
 		margin: 0;
 		box-shadow: $shadow;
+        .md textarea {
+            margin: 10px 0 5px;
+            border: 1px solid #ccc;
+        }
 	}
 	.commentarea {
 		.thing {
