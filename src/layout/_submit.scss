@@ -10,7 +10,6 @@
 		text-transform: capitalize;
 	}
 	.submit.content {
-
 		margin: 0;
 	}
 	.side .titlebox {
@@ -25,7 +24,7 @@
         letter-spacing: 2px;
         color: #DDD;
         &:hover {
-            color: #DBBD68;
+            color: $gold;
         }
     }
 	ul.tabmenu.formtab {
@@ -34,7 +33,7 @@
 		margin: 15px 0 10px;
 		li {
             &.selected a {
-                background-color: #DBBD68;
+                background-color: $gold;
                 letter-spacing: 2px;
                 text-transform: uppercase;
                 &:hover {
