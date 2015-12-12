@@ -22,6 +22,16 @@
 		margin-bottom: 0;
 		.entry .tagline .userattrs {
 			visibility: hidden;
+            .moderator {
+                background: $green;
+                color: white;
+                font-size: 9px;
+                font-weight: bold;
+                padding: 2px 5px;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
 			.moderator, .cakeday {
 				visibility: visible;
 			}

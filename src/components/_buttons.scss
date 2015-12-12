@@ -58,11 +58,10 @@
     font-size: 12px;
     text-transform: uppercase;
     border: none;
-    padding: 8px 15px;
+    padding: 9px 15px;
     transition: background-color 0.2s;
     outline: none;
     cursor: pointer;
-    letter-spacing: 1px;
     &:hover {
         background-color: lighten($gold, 10%);
     }

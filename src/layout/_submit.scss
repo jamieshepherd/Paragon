@@ -34,7 +34,6 @@
 		li {
             &.selected a {
                 background-color: $gold;
-                letter-spacing: 1px;
                 &:hover {
                     color: white;
                     background-color: lighten($gold, 10%);
@@ -42,7 +41,8 @@
             }
 			a {
 				border: none;
-				padding: 8px 15px;
+				padding: 9px 15px;
+                letter-spacing: 0;
 				&:hover {
 					text-decoration: none;
 				}

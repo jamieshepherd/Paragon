@@ -51,6 +51,26 @@
 			}
 			.tagline {
 				font-size: 12px;
+                .userattrs {
+                    visibility: hidden;
+                }
+                .moderator, .submitter {
+                    visibility: visible;
+                    font-size: 9px;
+                    font-weight: bold;
+                    color: white;
+                    padding: 2px 5px;
+                    &.author {
+                        font-size: 12px;
+                        display: inline-block;
+                    }
+                }
+                .moderator {
+                    background: $green;
+                }
+                .submitter {
+                    background: $blue;
+                }
 			}
 			.flat-list.buttons {
 				font-size: 11px;
