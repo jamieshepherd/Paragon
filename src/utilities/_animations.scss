@@ -1,0 +1,44 @@
+@keyframes flicker {
+	0.0% {
+		transform: translateX(0);
+		opacity: 1
+	}
+	7% {
+		transform: translateX(0);
+		opacity: 1
+	}
+	7.5% {
+		transform: translateX(-1px);
+		opacity: .75
+	}
+	7.75% {
+		transform: translateX(2px);
+		opacity: .65
+	}
+	8.0% {
+		transform: translateX(1px);
+		opacity: 1
+	}
+	8.25% {
+		transform: translateX(0);
+		opacity: 1
+	}
+	8.5% {
+		transform: translateX(-2px);
+		opacity: .5
+	}
+	8.75% {
+		transform: translateX(0);
+		opacity: 1
+	}
+	10.25% {
+		opacity: 1
+	}
+	10.5% {
+		opacity: .75
+	}
+	100%,
+	10.75% {
+		opacity: 1
+	}
+}

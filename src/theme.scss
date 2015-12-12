@@ -1,14 +1,16 @@
 @import
 'utilities/variables',
 'utilities/typography',
-'utilities/global';
+'utilities/global',
+'utilities/animations';
 
 @import
 'components/buttons',
 'components/search',
 'components/highlights',
 'components/flairs',
-'components/votes';
+'components/votes',
+'components/featured';
 
 @import
 'layout/main',

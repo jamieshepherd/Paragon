@@ -2,6 +2,7 @@
 	position: absolute;
 	top: 318px;
 	z-index: 1337;
+	background: $dark-grey;
 	&:before {
 		content: "";
 		width: 1px;
