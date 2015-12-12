@@ -1,0 +1,12 @@
+.wiki-page {
+    .content {
+        background: none;
+        box-shadow: none;
+    }
+    .wiki-page-content {
+        margin: 0;
+        background: white;
+        box-shadow: $shadow;
+        padding: 20px;
+    }
+}
