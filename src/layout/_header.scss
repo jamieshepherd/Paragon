@@ -76,8 +76,20 @@
 	color: white !important;
 }
 .res #RESShortcutsEditContainer {
-	display: none;
-	margin-right: 452px;
+	margin-right: 430px;
+    top: 3px;
+    background: none;
+    #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
+        background: none;
+        opacity: 0.5;
+        color: white;
+        &:hover {
+            opacity: 1.0;
+        }
+    }
+}
+.res #RESShortcutsViewport {
+    margin-right: 520px;
 }
 .res #userbarToggle {
 	background: none;
