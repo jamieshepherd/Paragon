@@ -1,3 +1,6 @@
+.side hr:last-of-type {
+    display: none;
+}
 .side blockquote:last-of-type {
 
 	a {
@@ -7,10 +10,8 @@
 		border: 1px solid white; //ie8
 		border: 1px solid rgba(255,255,255,0.2);
 		background: url(%%featured%%) no-repeat;
-		text-align: center;
-		width: 267px;
-		height: 150px;
-		color: white;
+		width: 480px;
+		height: 165px;
 		z-index: 1337;
 		display: inline-block;
 		transition: all 0.2s;
@@ -24,15 +25,17 @@
 			display: inline-block;
 			width: 100%;
 			position: absolute;
-			padding: 3px 0;
-			bottom: 0;
+			padding: 8px 15px;
+			top: 0;
 			right: 0;
 			background: black; //ie8
-			background: rgba(0,0,0,0.7);
+			background: rgba(0,0,0,0.8);
 			z-index: 1338;
 			transition: all 0.2s;
 			font-style: normal;
-			color: white;
+			color: $gold;
+            text-transform: uppercase;
+            box-sizing: border-box;
 		}
 	}
 }

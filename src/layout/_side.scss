@@ -55,6 +55,9 @@
 		margin-bottom: 20px;
 		.redditname {
 			margin-bottom: 15px;
+            a {
+                text-transform: capitalize;
+            }
 			&:before {
 				content: '/r/';
 			}
