@@ -29,10 +29,12 @@
 			top: 0;
 			right: 0;
 			background: black; //ie8
-			background: rgba(0,0,0,0.8);
+			background: rgba(0,0,0,0.7);
 			z-index: 1338;
 			transition: all 0.2s;
 			font-style: normal;
+			font-weight: bold;
+			font-size: 11px;
 			color: $gold;
             text-transform: uppercase;
             box-sizing: border-box;
