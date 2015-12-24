@@ -1,9 +1,27 @@
 // .side .md p:last-of-type {
+//     background-image: url(%%movingsnow%%);
 //     position: absolute;
-//     top: 0;
-//     left: 0;
-//     transform: translateX(50px) translateY(50px);
+//     display: block;
+//     top: -150px;
+//     left: -50%;
+//     min-width: 2400px;
+//     height: 1200px;
+//     width: 200vw;
+//     transform: translateX(-600px) translateY(-600px);
+//     animation: snowfall 10s linear infinite;
+//     position: absolute;
+//     overflow: hidden;
+//     margin: 0;
+//     z-index: 100;
+// }
+// body {
+//     overflow-x: hidden !important;
+// }
 //
+// @keyframes snowfall {
+//   to {
+//     transform: none;
+//   }
 // }
 
 
