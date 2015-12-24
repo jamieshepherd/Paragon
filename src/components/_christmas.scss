@@ -1,0 +1,45 @@
+// .side .md p:last-of-type {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     transform: translateX(50px) translateY(50px);
+//
+// }
+
+
+
+
+
+// Featured hat and snow
+.side blockquote:last-of-type {
+
+	a {
+		&:before {
+            content: '';
+            display: inline-block;
+            width: 514px;
+    		height: 123px;
+            top: -27px;
+            left: -28px;
+            position: absolute;
+            background: url(%%featuredsnow%%);
+            background-repeat: no-repeat;
+            z-index: 9999;
+        }
+    }
+}
+
+#header {
+    #header-bottom-left {
+        &:before {
+            width: 110px !important;
+			height: 110px !important;
+            background: url(%%emblemsnow%%) no-repeat !important;
+            margin-left: 5px !important;
+            margin-top: -60px !important;
+        }
+    }
+    .pagename a {
+        margin-bottom: 3px !important;
+    }
+}

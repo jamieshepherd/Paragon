@@ -19,6 +19,16 @@
 			background: lighten($blue, 10%) !important;
 		}
 	}
+    .thing .tagline .author.friend {
+		background-color: $red !important;
+		color: white;
+		padding: 2px 4px;
+		border-radius: 0;
+		font-weight: bold;
+		&:hover {
+			background: lighten($red, 10%) !important;
+		}
+	}
 	.thing .tagline .author {
 		display: inline-block;
 		color: #777;
