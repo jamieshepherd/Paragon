@@ -135,7 +135,8 @@
 
 .link {
 	position: relative;
-	.RES-keyNav-activeElement {
+	.RES-keyNav-activeElement,
+    .RES-keyNav-activeElement .md-container {
 		background: none !important;
 		&:after {
 			content: '';
