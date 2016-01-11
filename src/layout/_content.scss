@@ -145,16 +145,28 @@
 			width: 10px;
 			height: 9px;
 			background: url(%%spritesheet%%);
-			background-position: -45px -5px; 
+			background-position: -45px -5px;
 		}
 	}
 }
+// .content .RESBigEditorPop {
+//     text-indent: -9999px;
+//     overflow: hidden;
+//     font-size: 0;
+//     width: 20px;
+//     height: 16px;
+//     border: none;
+//     margin-left: 5px;
+// }
 .content .RESBigEditorPop {
-    text-indent: -9999px;
-    overflow: hidden;
+    text-indent: 0;
+    overflow: visible;
     font-size: 0;
-    width: 20px;
-    height: 16px;
+    width: auto;
+    height: auto;
     border: none;
-    margin-left: 5px;
+    margin-left: 10px;
+    padding: 0;
+    background-color: transparent !important;
+    color: $foreground;
 }
