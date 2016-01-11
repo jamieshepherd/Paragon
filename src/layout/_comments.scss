@@ -140,6 +140,7 @@
 .comments-page {
 	.comment {
 		position: relative;
+        .RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container,
 		.RES-keyNav-activeElement, .RES-keyNav-activeElement .md {
 			background: none !important;
 			&:after {
