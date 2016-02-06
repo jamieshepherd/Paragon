@@ -15,7 +15,7 @@
 		overflow: hidden;
 }
 
-.linkflairlabel {
+.linkflair-epic-answered .linkflairlabel, .linkflairlabel {
 	padding: 4px 4px 3px;
 	font-size: 9px;
 	font-weight: normal;
@@ -30,4 +30,20 @@
 	&:hover {
 		background: lighten($gold, 10%);
 	}
+}
+
+.linkflair-epic-answered {
+    .linkflairlabel {
+        background: black;
+        &:before {
+            content: 'Epic';
+            width: auto;
+            display: inline-block;
+            color: $highlight;
+            margin-right: 1px;
+        }
+        &:hover {
+            background: lighten(black, 30%);
+        }
+    }
 }
