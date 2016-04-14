@@ -17,6 +17,15 @@
 	}
 	.formtabs-content {
 		border-top: none;
+        &:before {
+            background: #f2dede;
+            color: #a94442;
+            border: 1px solid #ebcccc;
+            content: "IMPORTANT: Asking a question? Please make sure you have read the FAQ and used Reddit's search feature before posting your question. There's a very high chance it's already been answered and doing this will likely prevent others becoming from frustrated by duplicate submissions. Asking questions that have already been answered is also grounds for the removal of your submission!";
+            display: block;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
 	}
     .tabmenu li a {
         background-color: #FFFFFF;

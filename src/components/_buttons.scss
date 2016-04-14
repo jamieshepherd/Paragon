@@ -20,7 +20,7 @@
 			border-color: $blue;
 			text-decoration: none;
 		}
-		&.selftext.expanded, &.image.expanded, &.video.expanded {
+		&.selftext.expanded, &.image.expanded, &.video.expanded, &.video-muted.expanded {
 			background-position: -22px -42px;
 			&:hover {
 				background-position: -22px -62px;
@@ -44,7 +44,7 @@
 				background-position: -61px -62px;
 			}
 		}
-		&.video.collapsed {
+		&.video.collapsed, &.video-muted.collapsed {
 			background-position: -42px -42px;
 			&:hover {
 				background-position: -42px -62px;
