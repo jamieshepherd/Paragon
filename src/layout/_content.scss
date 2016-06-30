@@ -20,6 +20,16 @@
 		padding: 20px;
 		border-bottom: 1px solid #eeeeee;
 		margin-bottom: 0;
+        .tagline {
+            .flair {
+                display: none;
+            }
+            .userattrs {
+                &:before {
+                    display: none !important;
+                }
+            }
+        }
 		.entry .tagline .userattrs {
 			visibility: hidden;
             .moderator {

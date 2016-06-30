@@ -154,14 +154,53 @@
 			display: none;
 		}
 	}
-	.flairtoggle {
+	.leavemoderator, .leavecontributor-button {
 		display: none;
 	}
 	.tagline {
-		display: none;
+		position: relative;
+		margin-top: 20px;
+		margin-left: 0;
+		min-height: 25px;
+		font-size: 14px;
+		padding-top: 3px;
+		.author {
+			margin-left: 35px;
+		}
+		.flair {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-size: 250px;
+			width: 25px;
+			height: 25px;
+		}
 	}
-	.leavemoderator, .leavecontributor-button {
-		display: none;
+	.flairselector {
+		margin-top: 20px;
+		max-width: 250px;
+		position: static !important;
+	}
+	.dropchoices {
+		white-space: normal;
+	}
+	.flairoptionpane {
+		.author {
+			display: none;
+		}
+		.flair {
+			position: inherit;
+		}
+		ul {
+			overflow: visible;
+		}
+		li {
+			border: none;
+			display: inline-block !important;
+			padding: 0;
+			margin: 5px;
+			max-width: 25px;
+		}
 	}
 	.flairtoggle {
 		font-size: 12px;
@@ -261,4 +300,78 @@
 
 .sponsorshipbox, #ad_main {
     margin-bottom: 15px;
+}
+
+
+.side {
+	.tagline {
+		.userattrs {
+		    visibility: visible !important;
+		    &:before {
+		        position: absolute;
+				top: 0;
+				left: 0;
+				background-size: 250px;
+				width: 25px;
+				height: 25px;
+		    }
+		}
+		.flair-epic {
+    		background-position: -25px 0;
+		}
+		.flair-hero-murdock {
+		    background-position: 0 -25px;
+		}
+		.flair-hero-rampage {
+		    background-position: -25px -25px;
+		}
+		.flair-hero-gadget {
+		    background-position: 0 -50px;
+		}
+		.flair-hero-khaimera {
+		    background-position: -25px -50px;
+		}
+		.flair-hero-steel {
+		    background-position: 0 -75px;
+		}
+		.flair-hero-iggy {
+		    background-position: -25px -75px;
+		}
+		.flair-hero-riktor {
+		    background-position: 0 -100px;
+		}
+		.flair-hero-gideon {
+		    background-position: -25px -100px;
+		}
+		.flair-hero-sevarog {
+		    background-position: 0 -125px;
+		}
+		.flair-hero-howitzer {
+		    background-position: -25px -125px;
+		}
+		.flair-hero-twinblast {
+		    background-position: 0 -150px;
+		}
+		.flair-hero-grim {
+		    background-position: -25px -150px;
+		}
+		.flair-hero-dekker {
+		    background-position: 0 -175px;
+		}
+		.flair-hero-kallari {
+		    background-position: -25px -175px;
+		}
+		.flair-hero-feng {
+		    background-position: 0 -200px;
+		}
+		.flair-hero-muriel {
+		    background-position: -25px -200px;
+		}
+		.flair-hero-sparrow {
+		    background-position: 0 -225px;
+		}
+		.flair-hero-grux {
+		    background-position: -25px -225px;
+		}
+	}
 }

@@ -1,19 +1,19 @@
-.flair-epic {
-		border: none;
-		border-radius: 0px;
-		padding-left: 0px;
-		margin-right: inherit;
-		background-color: transparent ;
-		background-image: url(%%flair-epic%%);
-		background-repeat: no-repeat;
-		width: 18px;
-		height: 20px;
-		margin-bottom: -5px;
-		margin-left: 2px;
-		text-indent: 100px;
-		white-space: nowrap;
-		overflow: hidden;
-}
+// .flair-epic {
+// 		border: none;
+// 		border-radius: 0px;
+// 		padding-left: 0px;
+// 		margin-right: inherit;
+// 		background-color: transparent ;
+// 		background-image: url(%%flair-epic%%);
+// 		background-repeat: no-repeat;
+// 		width: 18px;
+// 		height: 20px;
+// 		margin-bottom: -5px;
+// 		margin-left: 2px;
+// 		text-indent: 100px;
+// 		white-space: nowrap;
+// 		overflow: hidden;
+// }
 
 .linkflair-epic-answered .linkflairlabel, .linkflairlabel {
 	padding: 4px 4px 3px;
@@ -41,15 +41,103 @@
 .linkflair-epic-answered {
     .linkflairlabel {
         background: black;
-        &:before {
-            content: 'Epic';
-            width: auto;
-            display: inline-block;
-            color: $highlight;
-            margin-right: 1px;
-        }
         &:hover {
             background: lighten(black, 30%);
         }
     }
+}
+
+.comment .entry {
+    margin-left: 100px;
+}
+
+.userattrs {
+    visibility: visible !important;
+    &:before {
+        content: '';
+        text-indent: -9999px;
+        overflow: hidden;
+        position: absolute;
+        left: 50px;
+        top: 16px;
+        width: 50px;
+        height: 50px;
+        background: url(%%flairs%%);
+        background-position: 0px 0px;
+        padding: 0;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+.flair {
+    z-index: 5;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    top: 16px;
+    width: 50px;
+    height: 50px;
+    background: url(%%flairs%%);
+    background-position: 0px 0px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+.flair-epic {
+    background-position: -50px 0;
+}
+.flair-hero-murdock {
+    background-position: 0 -50px;
+}
+.flair-hero-rampage {
+    background-position: -50px -50px;
+}
+.flair-hero-gadget {
+    background-position: 0 -100px;
+}
+.flair-hero-khaimera {
+    background-position: -50px -100px;
+}
+.flair-hero-steel {
+    background-position: 0 -150px;
+}
+.flair-hero-iggy {
+    background-position: -50px -150px;
+}
+.flair-hero-riktor {
+    background-position: 0 -200px;
+}
+.flair-hero-gideon {
+    background-position: -50px -200px;
+}
+.flair-hero-sevarog {
+    background-position: 0 -250px;
+}
+.flair-hero-howitzer {
+    background-position: -50px -250px;
+}
+.flair-hero-twinblast {
+    background-position: 0 -300px;
+}
+.flair-hero-grim {
+    background-position: -50px -300px;
+}
+.flair-hero-dekker {
+    background-position: 0 -350px;
+}
+.flair-hero-kallari {
+    background-position: -50px -350px;
+}
+.flair-hero-feng {
+    background-position: 0 -400px;
+}
+.flair-hero-muriel {
+    background-position: -50px -400px;
+}
+.flair-hero-sparrow {
+    background-position: 0 -450px;
+}
+.flair-hero-grux {
+    background-position: -50px -450px;
 }
