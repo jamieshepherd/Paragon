@@ -5,7 +5,7 @@
 	box-shadow: $shadow;
 
 	.thing.stickied  {
-		border-left: 3px solid $green;
+		border-left: 5px solid $green;
 		a.title, a.title:visited, .flat-list.buttons li.first a {
 			color: $green;
 		}
