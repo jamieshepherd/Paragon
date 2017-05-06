@@ -1,5 +1,5 @@
 .content {
-	margin: 20px;
+	margin: 86px 340px 20px 20px;
 	margin-right: 340px;
 	background: white;
 	box-shadow: $shadow;
@@ -137,6 +137,19 @@
 		        background-color: lighten($gold, 10%);
 				text-decoration: none;
 		    }
+		}
+	}
+	.organic-listing {
+		margin-bottom: 0;
+		border: none;
+		.link {
+			padding-left: 20px;
+		}
+	}
+	.subreddit-rules-page {
+		padding-top: 75px;
+		&:before {
+			top: 75px;
 		}
 	}
 }
