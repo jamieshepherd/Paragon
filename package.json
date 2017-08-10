@@ -1,7 +1,7 @@
 {
-  "name": "paragon-css-king",
+  "name": "paragon-css-master",
   "version": "2.0.0",
-  "description": "new and improved",
+  "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.18.12",
@@ -22,6 +22,6 @@
   "scripts": {
     "test": "fung mao"
   },
-  "author": "JejuneKai",
+  "author": "Jamie Shepherd, maintained by JejuneKai",
   "license": "ISC"
 }
