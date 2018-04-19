@@ -16,25 +16,27 @@
 // }
 
 .linkflair-epic-answered .linkflairlabel, .linkflairlabel {
-	padding: 4px 4px 3px;
-	font-size: 9px;
-	font-weight: normal;
-	text-transform: uppercase;
-	color: white;
-	background: $gold;
-	border: none;
-	border-radius: 0;
-	position: relative;
-	top: 2px;
-	letter-spacing: 1px;
-	&:hover {
-		background: lighten($gold, 10%);
-	}
+    padding: 4px 4px 3px;
+    font-size: 9px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    background: $gold;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    top: 2px;
+    letter-spacing: 1px;
+
+    &:hover {
+        background: lighten($gold, 10%);
+    }
 }
 
 .linkflair-official {
     border-left: 5px solid $gold;
     background: url(%%epic-linkflair%%) center right no-repeat;
+
     .linkflairlabel {
         background: black;
     }
@@ -43,6 +45,7 @@
 .linkflair-epic-answered {
     .linkflairlabel {
         background: black;
+
         &:hover {
             background: lighten(black, 30%);
         }
@@ -55,22 +58,24 @@
 
 .userattrs {
     visibility: visible !important;
-    &:before {
-        content: '';
-        text-indent: -9999px;
-        overflow: hidden;
-        position: absolute;
-        left: 50px;
-        top: 16px;
-        width: 50px;
-        height: 50px;
-        background: url(%%flairs%%);
-        background-position: 0px 0px;
-        padding: 0;
-        border: 0;
-        border-radius: 5px;
-    }
+
+    // &:before {
+    //     content: '';
+    //     text-indent: -9999px;
+    //     overflow: hidden;
+    //     position: absolute;
+    //     left: 50px;
+    //     top: 16px;
+    //     width: 50px;
+    //     height: 50px;
+    //     background: url(%%flairs%%);
+    //     background-position: 0px 0px;
+    //     padding: 0;
+    //     border: 0;
+    //     border-radius: 5px;
+    // }
 }
+
 .flair {
     z-index: 5;
     text-indent: -9999px;
@@ -86,102 +91,163 @@
     border: 0;
     border-radius: 5px;
 }
+
+.flair[class*="-challenger-"] {
+    background: url(%%flairs-challenger%%);
+}
+
+.flair[class*="-master-"] {
+    background: url(%%flairs-master%%);
+}
+
+.flair[class*="-npc-"] {
+    background: url(%%flairs-npc%%);
+}
+
+.flair-default {
+    background-position: 0 0;
+}
+
 .flair-epic {
     background-position: -50px 0;
 }
+
+.flair-hero-gideon {
+    background-position: -100px 0;
+}
+
+.flair-hero-sparrow {
+    background-position: -150px 0;
+}
+
+.flair-hero-muriel {
+    background-position: -200px 0;
+}
+
+.flair-hero-feng {
+    background-position: -250px 0;
+}
+
+.flair-hero-steel {
+    background-position: -300px 0;
+}
+
+.flair-hero-gadget {
+    background-position: -350px 0;
+}
+
+.flair-hero-kallari {
+    background-position: -400px 0;
+}
+
+.flair-hero-dekker {
+    background-position: -450px 0;
+}
+
 .flair-hero-murdock {
     background-position: 0 -50px;
 }
-.flair-hero-rampage {
+
+.flair-hero-twinblast {
     background-position: -50px -50px;
 }
-.flair-hero-gadget {
-    background-position: 0 -100px;
-}
-.flair-hero-khaimera {
-    background-position: -50px -100px;
-}
-.flair-hero-steel {
-    background-position: 0 -150px;
-}
-.flair-hero-iggy {
-    background-position: -50px -150px;
-}
-.flair-hero-riktor {
-    background-position: 0 -200px;
-}
-.flair-hero-gideon {
-    background-position: -50px -200px;
-}
-.flair-hero-sevarog {
-    background-position: 0 -250px;
-}
-.flair-hero-howitzer {
-    background-position: -50px -250px;
-}
-.flair-hero-twinblast {
-    background-position: 0 -300px;
-}
-.flair-hero-grim {
-    background-position: -50px -300px;
-}
-.flair-hero-dekker {
-    background-position: 0 -350px;
-}
-.flair-hero-kallari {
-    background-position: -50px -350px;
-}
-.flair-hero-feng {
-    background-position: 0 -400px;
-}
-.flair-hero-muriel {
-    background-position: -50px -400px;
-}
-.flair-hero-sparrow {
-    background-position: 0 -450px;
-}
-.flair-hero-grux {
-    background-position: -50px -450px;
-}
-.flair-hero-greystone {
-    background-position: -100px 0;
-}
-.flair-hero-the-fey {
+
+.flair-hero-rampage {
     background-position: -100px -50px;
 }
+
+.flair-hero-howitzer {
+    background-position: -150px -50px;
+}
+
+.flair-hero-grux {
+    background-position: -200px -50px;
+}
+
+.flair-hero-sevarog {
+    background-position: -250px -50px;
+}
+
+.flair-hero-iggy {
+    background-position: -300px -50px;
+}
+
+.flair-hero-grim {
+    background-position: -350px -50px;
+}
+
+.flair-hero-riktor {
+    background-position: -400px -50px;
+}
+
+.flair-hero-khaimera {
+    background-position: -450px -50px;
+}
+
+.flair-hero-greystone {
+    background-position: 0 -100px;
+}
+
+.flair-hero-the-fey {
+    background-position: -50px -100px;
+}
+
 .flair-hero-narbash {
     background-position: -100px -100px;
 }
+
 .flair-hero-lt-belica {
-    background-position: -100px -150px;
-}
-.flair-hero-kwang {
-    background-position: -100px -200px;
-}
-.flair-hero-countess {
-    background-position: -100px -250px;
-}
-.flair-hero-crunch {
-    background-position: -100px -300px;
-}
-.flair-hero-serath {
-    background-position: -100px -350px;
-}
-.flair-hero-aurora {
-    background-position: -100px -400px;
-}
-.flair-hero-shinbi {
-    background-position: -100px -450px;
-}
-.flair-hero-yin {
-    background-position: -150px 0;
-}
-.flair-hero-morigesh {
-    background-position: -150px -50px;
-}
-.flair-hero-revenant {
     background-position: -150px -100px;
 }
+
+.flair-hero-kwang {
+    background-position: -200px -100px;
+}
+
+.flair-hero-countess {
+    background-position: -250px -100px;
+}
+
+.flair-hero-crunch {
+    background-position: -300px -100px;
+}
+
+.flair-hero-serath {
+    background-position: -350px -100px;
+}
+
+.flair-hero-aurora {
+    background-position: -400px -100px;
+}
+
+.flair-hero-shinbi {
+    background-position: -450px -100px;
+}
+
+.flair-hero-yin {
+    background-position: 0 -150px;
+}
+
+.flair-hero-morigesh {
+    background-position: -50px -150px;
+}
+
+.flair-hero-revenant {
+    background-position: -100px -150px;
+}
+
 .flair-hero-phase {
     background-position: -150px -150px;
+}
+
+.flair-hero-wukong {
+    background-position: -200px -150px;
+}
+
+.flair-hero-wraith {
+    background-position: -250px -150px;
+}
+
+.flair-hero-zinx {
+    background-position: -300px -150px;
 }
